@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 
-export default function()
+export default function SideMenubar()
 {
     return(
         <>
