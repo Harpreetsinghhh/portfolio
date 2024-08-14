@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import Button from './Button.js'
+import Button from './Button'
 import HeroComponent from './HeroComponent'
 import About from './About'
 import Experience from './Experience'
