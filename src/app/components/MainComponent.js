@@ -10,13 +10,15 @@ import Footer from './Footer'
 import MainInfo from './MainInfo'
 import SideMenubar from './SideMenubar'
 import Aos from 'aos'
+import Sidebar from './Siderbar'
 
 const MainComponent = () => {
 
   return (
     <>
-   
+        <Sidebar/>
         <div className='px-2 pt-8'>
+          
         <div className="md:flex">
         <MainInfo/>
         <HeroComponent/>
