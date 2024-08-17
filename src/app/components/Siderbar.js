@@ -7,7 +7,7 @@ export default function Sidebar(props)
 {
     return(
         <>
-            <div id="sidebar" className={`bg-black text-white py-2 flex flex-col items-center justify-between absolute left-0 bottom-0 w-8/12 h-screen ${props.open?'':'hidden'}  md:hidden`} >
+            <div id="sidebar" className={`bg-black text-white  flex flex-col items-center justify-around absolute left-0 bottom-0 w-8/12 h-screen ${props.open?'':'hidden'}  md:hidden`} >
 
             <div className="flex flex-col items-center">
             <Image
